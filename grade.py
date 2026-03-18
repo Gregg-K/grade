@@ -5,5 +5,7 @@ students = {
     "Dan" : 70
 }
 
-for k, v in students.items():
-    print(k, v)
+#calculate score
+total_scores = sum(students.values())
+number_of_students = len(students)
+average_score = total_scores / number_of_students
