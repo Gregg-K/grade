@@ -9,3 +9,7 @@ students = {
 total_scores = sum(students.values())
 number_of_students = len(students)
 average_score = total_scores / number_of_students
+
+#highest score
+top_student = max(students, key=students.get)
+highest_score = students[top_student]
