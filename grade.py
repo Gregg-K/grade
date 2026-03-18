@@ -16,3 +16,8 @@ highest_score = students[top_student]
 
 #names to uppercase
 students_upper = {name.upper(): score for name, score in students.items()}
+
+#print results
+print("Student Grades:", students_upper)
+print("Average Score:", round(average_score, 2))
+print("Top Student:", top_student.upper(), f"({highest_score})")
