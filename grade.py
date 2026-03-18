@@ -13,3 +13,6 @@ average_score = total_scores / number_of_students
 #highest score
 top_student = max(students, key=students.get)
 highest_score = students[top_student]
+
+#names to uppercase
+students_upper = {name.upper(): score for name, score in students.items()}
